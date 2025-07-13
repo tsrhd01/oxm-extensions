@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'dwarvish';
+  font-style: normal;
+  font-weight: 400;
+  src: local('dwarvish'), local('dwarvish'), url(./dwarvish.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'hobbit';
+  font-style: normal;
+  font-weight: 400;
+  src: local('hobbit'), local('hobbit'), url(./hobbit.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'elvish';
+  font-style: normal;
+  font-weight: 400;
+  src: local('elvish'), local('elvish'), url(./elvish.ttf) format('truetype');
+}
