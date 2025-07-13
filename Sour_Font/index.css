@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Sour';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sour'), local('Sour'), url(./SourGummy-VariableFont_wdth,wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Sour';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Sour'), local('Sour'), url(./SourGummy-Italic-VariableFont_wdth,wght.ttf) format('truetype');
+}
