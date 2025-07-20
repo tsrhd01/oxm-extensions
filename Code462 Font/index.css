@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Code462';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Code462'), local('Code462'), url(./font.ttf) format('truetype');
+}
+
+
