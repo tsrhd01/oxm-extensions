@@ -1,0 +1,14 @@
+/* sfc-style:/mnt/data/Projects/One X Mark/Extensions/Clock2/Component.vue?type=style&index=0 */
+.clock {
+  &[data-v-78ccdfac] {
+    background: #10100E;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .time[data-v-78ccdfac] {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
