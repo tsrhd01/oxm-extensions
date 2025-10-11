@@ -1,0 +1,24 @@
+@import "https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap";
+
+/* sfc-style:/mnt/data/Projects/One X Mark/Extensions/Templates/Clock/Component.vue?type=style&index=0 */
+.clock_con {
+  &[data-v-78ccdfac] {
+    cursor: pointer;
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .time[data-v-78ccdfac] {
+    font-size: 35px;
+    font-family:
+      Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: bold;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
