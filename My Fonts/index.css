@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'BigBlueTerm';
+  font-style: normal;
+  font-weight: 400;
+  src: local('BigBlueTerm'), local('BigBlueTerm'), url(./BigBlueTerm.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Playwrite';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playwrite'), local('Playwrite'), url(./Playwrite.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee'), local('Bungee'), url(./Bungee.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Grace';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Grace'), local('Grace'), url(./Grace.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'JBM';
+  font-style: normal;
+  font-weight: 400;
+  src: local('JBM'), local('JBM'), url(./jbm.ttf) format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
