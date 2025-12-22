@@ -1,0 +1,272 @@
+/* sfc-style:/mnt/data/Projects/One X Mark/Extensions/Templates/TimelinePlanner/Component.vue?type=style&index=0 */
+.timeline_planner_container {
+  &[data-v-78ccdfac] {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgb(73, 73, 73, 0.5);
+    background: rgb(48, 48, 48, 0.2);
+    font-family: Helvetica;
+  }
+  .create_skull {
+    &[data-v-78ccdfac] {
+      width: 100%;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    .sub_con {
+      &[data-v-78ccdfac] {
+        display: flex;
+      }
+      .year_input {
+        &[data-v-78ccdfac] {
+          background: rgb(73, 73, 73, 0.4);
+          background: #494949;
+          font-size: 14px;
+          width: 100px;
+          border-radius: 5px;
+          padding: 5px 6px;
+          color: rgb(255, 255, 255, 0.9);
+        }
+        &[data-v-78ccdfac]:focus {
+          outline: none;
+          color: rgb(255, 255, 255, 0.9);
+        }
+      }
+      .year_input[data-v-78ccdfac]::placeholder {
+        color: #888;
+        opacity: 1;
+        font-size: 14px;
+        font-style: italic;
+      }
+      .btn {
+        &[data-v-78ccdfac] {
+          margin: 0px 0px 0px 7px;
+          background:
+            linear-gradient(
+              135deg,
+              #007bff,
+              #3399ff,
+              #66b2ff);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0px 7px;
+          border-radius: 5px;
+          font-size: 14px;
+          cursor: pointer;
+          background: rgb(255, 255, 255, 0.1);
+          color: rgb(255, 255, 255, 0.7);
+          font-weight: bold;
+        }
+        &[data-v-78ccdfac]:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+  .timeline_planner_header[data-v-78ccdfac] {
+    width: 100%;
+  }
+  .timeline_planner_header {
+    &[data-v-78ccdfac] {
+      padding: 10px;
+      display: flex;
+    }
+    .sub_con[data-v-78ccdfac] {
+      flex: 1;
+    }
+    .sub_con1 {
+      .year {
+        &[data-v-78ccdfac] {
+          display: flex;
+          position: relative;
+        }
+        .txt[data-v-78ccdfac] {
+          font-size: 32px;
+          font-weight: bold;
+          font-family: AG;
+        }
+        .picker_con {
+          &[data-v-78ccdfac] {
+            margin: 0px 0px 0px 10px;
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+          .svg[data-v-78ccdfac] {
+            width: 17px;
+            height: 17px;
+            fill: white;
+            transform: translateY(23px);
+          }
+          .picker_sub_con[data-v-78ccdfac] {
+            opacity: 0;
+          }
+        }
+      }
+      .opt[data-v-78ccdfac] {
+        margin: 12px 0px 0px 10px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .add_options {
+        &[data-v-78ccdfac] {
+          display: flex;
+          margin: 0px 0px 0px 0px;
+        }
+        .opt {
+          &[data-v-78ccdfac] {
+            display: flex;
+            margin: 0px 5px 0px 0px;
+            background: rgb(45, 46, 46, 0.6);
+            width: fit-content;
+            padding: 4px 7px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+          &[data-v-78ccdfac]:hover {
+            opacity: 0.8;
+          }
+          .svg[data-v-78ccdfac] {
+            width: 13px;
+            height: 13px;
+            fill: white;
+          }
+          .txt[data-v-78ccdfac] {
+            font-size: 14px;
+            margin: 0px 0px 0px 5px;
+          }
+        }
+      }
+    }
+    .sub_con2,
+    .sub_con3 {
+      &[data-v-78ccdfac] {
+        padding: 5px;
+      }
+      .main_txt[data-v-78ccdfac] {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        margin: 0px 0px 10px 0px;
+      }
+      .values[data-v-78ccdfac] {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .value {
+        &[data-v-78ccdfac] {
+          background: rgb(73, 73, 73, 0.4);
+          font-size: 12px;
+          padding: 4px 7px;
+          border-radius: 10px;
+          height: fit-content;
+          margin: 0px 5px 5px 0px;
+          font-weight: bold;
+          color: rgb(255, 255, 255, 0.7);
+        }
+        .editing {
+          &[data-v-78ccdfac] {
+            display: flex;
+          }
+          .edit_input[data-v-78ccdfac] {
+            font-size: 14px;
+            padding: 2px 5px;
+          }
+          .opt {
+            &[data-v-78ccdfac] {
+              padding: 3px;
+              cursor: pointer;
+            }
+            &[data-v-78ccdfac]:hover {
+              opacity: 0.8;
+            }
+          }
+          .cross {
+            .svg[data-v-78ccdfac] {
+              width: 12px;
+              height: 12px;
+              fill: white;
+              margin-left: 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .loaded_con[data-v-78ccdfac] {
+    width: 100%;
+  }
+  .render_svg[data-v-78ccdfac] {
+    width: 100%;
+    height: 460px;
+    background: transparent;
+    margin: 0px 0px 0px 0px;
+  }
+  .lane-bg[data-v-78ccdfac] {
+    fill: #1c2130;
+    fill: transparent;
+  }
+  .lane-label[data-v-78ccdfac] {
+    fill: #aaa;
+    font-size: 20px;
+    text-anchor: end;
+    display: none;
+  }
+  .date-text[data-v-78ccdfac] {
+    font-size: 12px;
+  }
+  .task[data-v-78ccdfac] {
+    fill: #4f7cff;
+    cursor: move;
+    fill: rgb(34, 207, 68, 0.8);
+  }
+  .task-group[data-v-78ccdfac] {
+    fill: white;
+    font-weight: bold;
+  }
+  .task.selected[data-v-78ccdfac] {
+  }
+  .handle[data-v-78ccdfac] {
+    fill: black;
+    cursor: ew-resize;
+    fill: white;
+  }
+  .axis text[data-v-78ccdfac] {
+    fill: #aaa;
+  }
+  .axis path[data-v-78ccdfac],
+  .axis line[data-v-78ccdfac] {
+    transform: translateX(-40px) translateY(10px);
+  }
+  .axis line[data-v-78ccdfac] {
+  }
+  .axis-month text[data-v-78ccdfac] {
+  }
+  .axis-quarter text[data-v-78ccdfac] {
+    fill: #fff;
+    font-weight: 600;
+  }
+  .axis-quarter path[data-v-78ccdfac] {
+    display: none;
+  }
+  .axis-quarter line[data-v-78ccdfac] {
+  }
+  .axis-month[data-v-78ccdfac] {
+    transform: translateX(20px) translateY(70px);
+  }
+  .axis-month text[data-v-78ccdfac] {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    fill: rgb(255, 255, 255, 0.8);
+    transform: translateX(-25px);
+  }
+  .axis-quarter text[data-v-78ccdfac] {
+    font-size: 20px;
+    fill: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
