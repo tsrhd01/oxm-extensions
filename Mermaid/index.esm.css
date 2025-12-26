@@ -1,0 +1,66 @@
+/* sfc-style:/mnt/data/Projects/One X Mark/Extensions/Templates/Mermaid/Component.vue?type=style&index=0 */
+.mermaid_con {
+  &[data-v-78ccdfac] {
+    font-family: Helvetica;
+    border-radius: 10px;
+    position: relative;
+    min-height: 100px;
+    max-height: fit-content;
+    background: #191919;
+    background: #212121;
+  }
+  .mermaid_header {
+    &[data-v-78ccdfac] {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+    }
+    .mermaid_svg_opt {
+      &[data-v-78ccdfac] {
+        padding: 10px;
+        border: 1px solid rgb(73, 73, 73, 0.6);
+        background: rgb(73, 73, 73, 0.4);
+        cursor: pointer;
+      }
+      .svg[data-v-78ccdfac] {
+        width: 17px;
+        height: 17px;
+        fill: rgb(255, 255, 255, 0.5);
+      }
+    }
+  }
+  .diagram {
+    &[data-v-78ccdfac] {
+      width: 100%;
+    }
+    .mermaid[data-v-78ccdfac] {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0px;
+    }
+  }
+  .mermaid_editor {
+    .mermaid_editor_txt[data-v-78ccdfac] {
+      font-size: 14px;
+      color: rgb(255, 255, 255, 0.5);
+      padding: 10px 0px 0px 15px;
+    }
+  }
+  .mermaid_pre {
+    &[data-v-78ccdfac] {
+      font-family: "JetBrainsMono", monospace;
+      padding: 10px 10px 10px 15px;
+    }
+    .mermaid_code {
+      &[data-v-78ccdfac] {
+        background: none;
+        color: inherit;
+        font-size: 0.8rem;
+        padding: 0;
+      }
+      &[data-v-78ccdfac]:focus {
+        outline: none;
+      }
+    }
+  }
+}
